@@ -147,4 +147,23 @@ ApiCall({ key: secrets.key });
 
 ---
 
-Michael Xieyang Liu | [Website](https://lxieyang.github.io)
+# 启动
+1. 安装依赖
+```
+npm install
+```
+2. 启动
+```
+npm run start
+```
+3. 打包
+```
+npm run build
+```
+
+# 调试
+1. 打开 chrome://extensions/
+2. 勾选开发者模式
+3. 加载已解压的扩展程序
+4. 选择 build 目录
+5. 刷新页面
